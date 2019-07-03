@@ -1,0 +1,21 @@
+Development Process
+Getting your local environment running is easy with FREA Box. We recommend using this Docker container for any development or testing that involves running a local blockchain.
+
+Our branching strategy is similar to GitFlow, but we do all of our development in the master branch and have a stable branch for code that has been released.
+
+Your development flow should look like:
+
+Find an interesting issue and communicate! Please let the #engineering Discord channel know what you want to work on.
+Ping a core team member member on Discord and ask to be added to our contributors team. Otherwise, you’ll need to fork the relevant repository and push feature branches to your own fork.
+Add a comment to the issue or self-assign so we don’t have multiple contributors unintentionally working on the same task.
+Start with the master branch and check out a new feature branch unless you’re contributing to an existing feature.
+Follow the appropriate coding style and write some awesome code.
+Pull the latest commits from master and confirm that your code works with any other work that has been merged since you started.
+Push your branch to the upstream repository (i.e. https://github.com/Frea/[repo]) so that other contributors can easily work off of it if necessary.
+Please request a review in the PR by clicking on the gear icon next to “Reviewers” in the right column.
+The master branche is locked so that only members of the core team are able to merge your pull requests. Pull requests that are peer reviewed by other trusted contributors will be fast-tracked and merged faster! Check in the #engineering Discord channel for appropriate reviewers.
+
+Coding Style
+We use a variety of programming languages in our repositories. When contributing, please follow existing coding conventions and refer to the CONTRIBUTING.md file in the repository, if one exists.
+
+For JavaScript, we use NPM’s style, which is automatically enforced via prettier.
